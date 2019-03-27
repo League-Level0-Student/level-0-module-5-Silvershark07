@@ -2,33 +2,17 @@
 public class forloopgantleet {
 public static void main(String[] args) {
 	
-	for(int i = 0;i<101;i++) {
-  if(i%2==0) {
-		System.out.println(i);
-	
-  
-	
-		System.out.println(i+"is even");
-  }
-		System.out.println(i+"is odd");
+	for(int j = 0; j<1000;j++) {
+		for(int k = 0;k<j;k++) {
+			System.out.print( " * ");
+		
+	}
+ System.out.println();
 	}
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	}	
-}	
+	}
+}
+
+
